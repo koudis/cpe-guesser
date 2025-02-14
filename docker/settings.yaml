@@ -1,8 +1,8 @@
 server:
   port: 8000
-redis:
-  host: redis
+valkey:
+  host: valkey
   port: 6379
 cpe:
-  path: '/data/official-cpe-dictionary_v2.3.xml'
+  path: '../data/official-cpe-dictionary_v2.3.xml'
   source: 'https://nvd.nist.gov/feeds/xml/cpe/dictionary/official-cpe-dictionary_v2.3.xml.gz'
